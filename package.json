@@ -1,0 +1,22 @@
+{
+  "name": "react-hooks-tdd-codealong",
+  "version": "1.0.0",
+  "description": "Test-Driven Development Codealong",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Flatiron School",
+  "license": "See LICENSE.md file",
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.5",
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  }
+}
